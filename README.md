@@ -154,7 +154,7 @@ If the board does not enumerate at all, you may need the CH340 driver; check
 ### 4. Clone and build
 
 ```bash
-git clone https://github.com/YOURNAME/commute-tv.git
+git clone https://github.com/nakulsudarshan/commute-tv.git
 cd commute-tv
 make test
 ```
