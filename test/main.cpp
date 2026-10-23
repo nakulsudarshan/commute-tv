@@ -1,0 +1,51 @@
+#include "test.h"
+void test_timeutil();
+void test_tz_offset();
+void test_textutil();
+void test_ratelimit();
+void test_places();
+void test_address();
+void test_json();
+void test_comfort();
+void test_trip_select();
+void test_alert();
+void test_hafas_request();
+void test_hafas_parse();
+void test_hafas_client();
+void test_google();
+void test_ors();
+void test_meteo();
+void test_jpeg();
+void test_smalltv();
+void test_band_render();
+void test_screen();
+void test_oled();
+void test_http_parse();
+void test_orchestrator();
+
+int main() {
+    test_timeutil();
+    test_tz_offset();
+    test_textutil();
+    test_ratelimit();
+    test_places();
+    test_address();
+    test_json();
+    test_comfort();
+    test_trip_select();
+    test_alert();
+    test_hafas_request();
+    test_hafas_parse();
+    test_hafas_client();
+    test_google();
+    test_ors();
+    test_meteo();
+    test_jpeg();
+    test_smalltv();
+    test_band_render();
+    test_screen();
+    test_oled();
+    test_http_parse();
+    test_orchestrator();
+    return t::report();
+}
